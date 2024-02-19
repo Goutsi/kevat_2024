@@ -1,0 +1,18 @@
+body { color: white;
+    background-color: black;
+}
+h1 {font-size: 20px;
+}
+p {font-size: 12px;
+color: green;
+}
+div{border: dotted;
+width: 100px;
+height: 100px;
+}
+.letters-list {
+    list-style-type: upper-alpha; /* use upper-case letters: A,B,C, ...*/
+}
+.squares-list {
+    list-style-type:square; /*use square markers*/
+}
