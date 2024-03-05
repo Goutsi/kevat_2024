@@ -1,0 +1,59 @@
+header,footer{
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    clear: left;
+}
+
+nav{
+    background-color: bisque;
+    padding: 1em;
+}
+
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper >div{
+    flex: 1;
+    text-align: center;
+
+}
+
+section {
+    width: 65%
+    color: blue;
+    height: 20px;
+    padding:1em;
+    text-align:center;
+
+}
+
+aside{
+    float:right;
+    width: 25%;
+    color: blue;
+    height: 430px;
+    padding: 1em;
+}
+
+article{
+    float:left;
+    width:65%;
+    padding: 1em;
+    color: blue;
+    height: 230px;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 1em;
+    font-size: 10px;
+ 
+ }
